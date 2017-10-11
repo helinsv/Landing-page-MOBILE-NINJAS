@@ -1,0 +1,186 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 978px) {
+	html{
+		font-size: 14px;
+	}
+
+	.contact .owl-prev:before{
+		content: '';	
+	}
+
+	.contact .owl-nav{
+		width: 100%;
+		float: right;
+	}
+
+	.contact .owl-dots{		
+		position: absolute;
+		right: calc(50% - 45px);		
+	}
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 890px) {
+	html{
+		font-size: 12px;
+	}
+
+
+}
+
+@media screen and (max-width: 710px){
+	html{
+		font-size: 10px;
+	}	
+	.note::before {
+		top: 52px;
+	}
+
+}
+
+
+@media screen and (max-width: 600px){
+	.arrow{		
+		right: 1rem;		
+	}
+
+	.form-wrapper .btn-red{
+		width: 100%;
+	}
+
+	.send .capcha-wrapper label{	
+		width: 10rem;
+	}	
+
+	.top-header nav{
+		line-height: 2.5rem; 
+	}
+
+	.top-menu{
+		display: none;			
+		position: absolute;	
+		background: rgba(112,112,112,0.3);
+		margin-top: 80px;		
+		width: 100%;
+		text-align: center;
+		width: calc(100% - 18px);
+	}
+
+	.top-menu ul li {		
+		display: block;	
+	}
+
+	.top-menu a{		
+		padding: 5px 15px;		
+	}
+	
+	.top-menu a:hover, #active{
+		color: #e74c48;
+		background-image: none;
+	}
+
+	.btn-toggle {
+		display: block;
+	}
+
+	h1, h2{
+		font-size: 6.5rem;
+	}
+
+	h1>small{
+		font-size: 3.5rem;	 
+	}
+
+	h2>small{	
+		font-size: 2rem;
+	}
+
+	.bottom-header>img{	
+		padding-right: 2rem;
+	}
+
+	.apps .item-app {
+		width: calc(100%/2 - 36px);
+	}
+
+	.services .items-app .item-app{
+		flex-basis: calc(100% - 36px);
+	}
+
+	header {
+		min-height: 290px;
+	}
+
+	.bottom-header>img{
+		display: none;
+	}
+
+	.arrow{
+		right: 8.5rem;
+		bottom: 3rem;
+	}
+
+	.form-wrapper label{
+		width: 9rem;
+	}
+
+	.contact .btn-red{
+		padding: 14px 25px;	
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	#up{
+		display: none!important;
+	}
+
+	.contact .item-app:first-child {
+		width: calc(100% - 36px);
+		
+	}
+
+	.contact .items-app {
+		max-width: 350px;
+		margin: 0 auto;
+	}
+
+	.contact .item-app:last-child {
+		width: calc(100% - 36px);
+	}
+
+	.form-wrapper label{
+		width: 8rem;
+	}	
+}
+
+@media screen and (max-width: 400px){
+	.arrow{
+		display: none;
+	}
+
+	.apps .items-app {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+
+	.apps .item-app {
+		width: calc(100% - 36px);
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+/*<480 <768 <992 <1200 <1600 >1600*/
+

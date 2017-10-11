@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('fonts/bebasneue-webfont.woff2') format('woff2'),
+       url('fonts/bebasneue-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Londrinasolid';
+	src: url('fonts/londrinasolid-regular-webfont.woff2') format('woff2'),
+       url('fonts/londrinasolid-regular-webfont.woff') format('woff');
+}
