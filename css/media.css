@@ -20,8 +20,6 @@
 		right: calc(50% - 45px);		
 	}
 
-
-
 }
 
 /* Medium Devices, Desktops */
@@ -37,17 +35,14 @@
 	html{
 		font-size: 10px;
 	}	
-	.note::before {
-		top: 52px;
-	}
 
 }
 
 
 @media screen and (max-width: 600px){
-	.arrow{		
+	/*.arrow{		
 		right: 1rem;		
-	}
+	}*/
 
 	.form-wrapper .btn-red{
 		width: 100%;
@@ -120,10 +115,10 @@
 		display: none;
 	}
 
-	.arrow{
+	/*.arrow{
 		right: 8.5rem;
 		bottom: 3rem;
-	}
+	}*/
 
 	.form-wrapper label{
 		width: 9rem;
@@ -160,9 +155,9 @@
 }
 
 @media screen and (max-width: 400px){
-	.arrow{
+	/*.arrow{
 		display: none;
-	}
+	}*/
 
 	.apps .items-app {
 		max-width: 300px;
